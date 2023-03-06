@@ -21,6 +21,6 @@ public class B_KDVTutarıHesaplayanProgram {
 		System.out.println("Price without VAT : " + amount);
 		System.out.println("VAT Rate : " + vatRate);
 		System.out.println("VAT Amount : " + vatAmount);
-		System.out.println("VAT Including Amount : " + vatIncAmount);
+		System.out.println("VAT Including Amount : " + vatIncAmount);		
 	}	
 }
