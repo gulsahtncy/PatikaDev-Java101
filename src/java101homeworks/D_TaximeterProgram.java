@@ -3,8 +3,7 @@ package java101homeworks;
 import java.util.Scanner;
 
 public class D_TaximeterProgram {
-	public static void main(String[] args) {		
-		
+	public static void main(String[] args) {				
 		int km;
 		double perKm = 2.20, total = 10, startPrice = 10;
 		
