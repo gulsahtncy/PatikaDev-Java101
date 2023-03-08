@@ -12,6 +12,7 @@ public class D_TaximeterProgram {
 		km = input.nextInt();
 		
 		total += (km * perKm);
-		System.out.println(total);
+		total = (total < 20) ? 20 : total;
+		System.out.println("total amount" + total);
 	}
 }
