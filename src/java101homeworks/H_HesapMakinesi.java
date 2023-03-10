@@ -13,9 +13,10 @@ public class H_HesapMakinesi {
 		number2 = input.nextInt();
 
 		System.out.println("1 - Addition\n2 - Subtraction\n3 - Multiplication\n4 - Division ");
+	
 		System.out.print("What is your choice? : ");
 		select = input.nextInt();
-
+	
 		switch (select) {
 		case 1: {
 			System.out.println("Addition : " + (number1 + number2));
