@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class H_HesapMakinesi {
 	public static void main(String[] args) {
 		int number1, number2, select;
-
 		Scanner input = new Scanner(System.in);
+		
 		System.out.print("Enter the first number : ");
 		number1 = input.nextInt();
 		System.out.print("Enter the second number : ");
@@ -36,7 +36,7 @@ public class H_HesapMakinesi {
 				break;
 			default:
 				System.out.println("Division : " + (number1 / number2));
-			}	
+			}
 			break;
 		}
 		default:
