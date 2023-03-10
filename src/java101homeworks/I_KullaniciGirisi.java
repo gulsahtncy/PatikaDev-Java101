@@ -24,13 +24,13 @@ public class I_KullaniciGirisi {
 			switch (answer) {
 			case 0:
 				System.out.println("The process has been terminated.");
+				break;
 			case 1:
 				Scanner input1 = new Scanner(System.in);
 				System.out.print("Enter a different password than your old password : ");
 				password2 = input1.nextLine();
 				if (password2.equals("java123") || password2.equals(password)) {
-					System.out.print("Could not create password, please enter another password : ");
-					return;
+					System.out.print("Could not create password, please enter another password : ");					
 				} else {
 					System.out.print("Password created");
 				}
