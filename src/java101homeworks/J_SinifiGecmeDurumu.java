@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class J_SinifiGecmeDurumu {
 	public static void main(String[] args) {
-		int math, physics, turkish, chemistry, music;
-		double average, numberOfLessons = 0, classScores = 0;
+		int math, physics, turkish, chemistry, music, numberOfLessons = 0, classScores = 0;
+		double average;
 
 		Scanner input = new Scanner(System.in);
 
@@ -56,5 +56,6 @@ public class J_SinifiGecmeDurumu {
 		} else {
 			System.out.println("Congratulations, you passed the class.");
 		}
+	
 	}
 }
