@@ -7,7 +7,8 @@ public class K_HavaSicakliginaGoreEtkinlikOnerme {
 		int temperature;
 		
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter the air temperature :");
+		
+		System.out.print("Enter the air temperature : ");
 		temperature = input.nextInt();
 		
 		if (temperature < 5) {
@@ -24,8 +25,6 @@ public class K_HavaSicakliginaGoreEtkinlikOnerme {
 		
 		if (temperature > 25) {
 			System.out.println("You can swim.");
-		}
-		
+		}		
 	}
-
 }
